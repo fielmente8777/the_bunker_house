@@ -1,13 +1,12 @@
-import React from "react";
 import InformationCard from "../components/InformationCard";
 
+import { Helmet } from "react-helmet";
 import Experience_LandingImg from "../assets/Experience_LandingImg.png";
-import Trekking_img from "../assets/Trekking_img2.jpg";
-import Pilgrimage_img from "../assets/Pilgrimage_img.jpg";
 import IntoTheWild_img from "../assets/IntoTheWild_img.jpg";
+import Pilgrimage_img from "../assets/Pilgrimage_img.jpg";
 import RiverTrail_img from "../assets/RiverTrail_img.jpg";
 import Stargazing_img from "../assets/Stargazing_img.jpg";
-import { Helmet } from "react-helmet";
+import Trekking_img from "../assets/Trekking_img2.jpg";
 
 const ExperienceScreen = () => {
   const data = [

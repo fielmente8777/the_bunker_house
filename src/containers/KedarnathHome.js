@@ -1,15 +1,14 @@
-import React from "react";
 import KedarnathBanner from "../assets/kedarnath_banner.0af09b1fcb5b9e784278.jpg";
 
+import { Helmet } from "react-helmet";
 import aboutKedarnath from "../assets/kedarnath/Group 6.png";
 import ChoooseKedarnath from "../assets/kedarnath/IMG_4545.7ce2b60622465bdff0b7.png";
 import g1 from "../assets/kedarnath/Rectangle 6 (1).png";
-import g2 from "../assets/tungnath/Rectangle 9 (2).png"
-import g3 from "../assets/kedarnath/Rectangle 9 (1).png";
 import g4 from "../assets/kedarnath/Rectangle 8.png";
-import KerdarTungCard from "../components/KedarTungCard";
+import g3 from "../assets/kedarnath/Rectangle 9 (1).png";
+import g2 from "../assets/tungnath/Rectangle 9 (2).png";
 import BookNow from "../components/BookNow";
-import { Helmet } from "react-helmet";
+import KerdarTungCard from "../components/KedarTungCard";
 const KedarnathHome = () => {
   const data = [
     {},

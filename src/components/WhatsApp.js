@@ -1,7 +1,4 @@
-import React from "react";
-import { IoCall } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const WhatsApp = () => {
 

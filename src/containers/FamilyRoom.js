@@ -1,7 +1,6 @@
-import React from "react";
+import { Helmet } from "react-helmet";
 import FamilyRoom_img from "../assets/FamilyRoom_img1.jpg";
 import { bookingURL } from "../csconfig";
-import { Helmet } from "react-helmet";
 
 const FamilyRoom = () => {
   return (

@@ -1,7 +1,6 @@
-import React from "react";
+import { Helmet } from "react-helmet";
 import PrivateDeluxeRoom_img from "../assets/PrivateDeluxeRoom_img.jpeg";
 import { bookingURL } from "../csconfig";
-import { Helmet } from "react-helmet";
 
 const PrivateDeluxeRoom = () => {
   return (

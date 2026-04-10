@@ -1,6 +1,4 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 function Call() {
   return (

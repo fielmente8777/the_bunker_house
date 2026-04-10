@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
-import home_img from "../assets/home_img-2.jpg";
-import Home_img_1 from "../assets/Home_img1.jpg";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import Home_img_2 from "../assets/home_img-2.jpg";
+import Home_img_1 from "../assets/Home_img1.jpg";
 import Home_img3 from "../assets/Home_img3.jpeg";
 import route_1 from "../assets/route-1.png";
 import route_2 from "../assets/route-2.png";
-import Main_video from "../assets/main_video.mp4";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet";
 import { Container, Section } from "../components";
 
 const HomeScreen = () => {

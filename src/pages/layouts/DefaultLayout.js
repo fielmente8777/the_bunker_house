@@ -1,30 +1,29 @@
-import React from "react";
-import { Navigate, Outlet, Route, Routes } from "react-router";
+import { Outlet, Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 
-import Navbar from "../../containers/Navbar";
 import Footer from "../../containers/Footer";
+import Navbar from "../../containers/Navbar";
 
 import HomeScreen from "../../containers/HomeScreen";
 
 import CafeScreen from "../../containers/CafeScreen";
 
 import ExperienceScreen from "../../containers/ExperienceScreen";
-import TrekkingScreen from "../../containers/TrekkingScreen";
 import PilgrimageScreen from "../../containers/PilgrimageScreen";
+import TrekkingScreen from "../../containers/TrekkingScreen";
 
-import StayScreen from "../../containers/StayScreen";
-import PrivateDeluxeRoom from "../../containers/PrivateDeluxeRoom";
-import HostelRoom from "../../containers/HostelRoom";
 import FamilyRoom from "../../containers/FamilyRoom";
+import HostelRoom from "../../containers/HostelRoom";
+import PrivateDeluxeRoom from "../../containers/PrivateDeluxeRoom";
+import StayScreen from "../../containers/StayScreen";
 
-import Error404 from "../../containers/Error404";
+import Call from "../../components/Call";
+import WhatsApp from "../../components/WhatsApp";
 import AboutUsScreen from "../../containers/AboutUsScreen";
+import Error404 from "../../containers/Error404";
+import HomePage from "../../containers/HomePage";
 import KedarnathHome from "../../containers/KedarnathHome";
 import TungnathHome from "../../containers/TungnathHome";
-import HomePage from "../../containers/HomePage";
-import WhatsApp from "../../components/WhatsApp";
-import Call from "../../components/Call";
 
 const DefaultLayout = () => {
   return (

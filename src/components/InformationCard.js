@@ -1,11 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
+import { Autoplay, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
 
 import "swiper/css";
-import "swiper/css/pagination";
 import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const InformationCard = ({ card, id }) => {
   return (

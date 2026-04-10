@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.scss";
 import DefaultLayout from "./pages/layouts/DefaultLayout";
 import LoadingScreen from "./pages/LoadingScreen";

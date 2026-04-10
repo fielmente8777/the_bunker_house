@@ -1,15 +1,14 @@
-import React from "react";
 import TungnathBanner from "../assets/p.jpg";
 
+import { Helmet } from "react-helmet";
+import g4 from "../assets/Panchkedars_img.jpg";
 import aboutKedarnath from "../assets/Tungnathtemple.png";
-import ChoooseKedarnath from "../assets/tungnath/IMG_4548.e05c12be6b2b95392812.png";
 import g1 from "../assets/p.jpg";
 import g2 from "../assets/tungnath/IMG_4544.25a702d4d333ada17eb9.png";
+import ChoooseKedarnath from "../assets/tungnath/IMG_4548.e05c12be6b2b95392812.png";
 import g3 from "../assets/tungnath/IMG_4549.e652738e54812e20566f.png";
-import g4 from "../assets/Panchkedars_img.jpg";
-import KerdarTungCard from "../components/KedarTungCard";
 import BookNow from "../components/BookNow";
-import { Helmet } from "react-helmet";
+import KerdarTungCard from "../components/KedarTungCard";
 
 const TungnathHome = () => {
   const data = [

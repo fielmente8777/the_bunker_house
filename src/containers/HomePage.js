@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
-import home_img from "../assets/home_img-2.jpg";
-import Home_img_1 from "../assets/PrivateDeluxeRoom_img1.jpeg";
-import Home_img_2 from "../assets/HostelRoom_img3.png";
+import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import Home_img3 from "../assets/FamilyRoom_img1.jpg";
+import home_img from "../assets/home_img-2.jpg";
+import Chopta from "../assets/Home_img3.jpeg";
+import Home_img_2 from "../assets/HostelRoom_img3.png";
 import kedarnath from "../assets/kedarnathtemple.png";
-import Tungnath from "../assets/Tungnathtemple.png";
+import Home_img_1 from "../assets/PrivateDeluxeRoom_img1.jpeg";
 import route_1 from "../assets/route-1.png";
 import route_2 from "../assets/route-2.png";
-import Chopta from "../assets/Home_img3.jpeg";
-import { Helmet } from "react-helmet";
-import TwoColCard from "../components/TwoColCard";
-import Form from "../components/Form";
+import Tungnath from "../assets/Tungnathtemple.png";
 import { Container, Section } from "../components";
+import Form from "../components/Form";
+import TwoColCard from "../components/TwoColCard";
 
 const HomePage = () => {
   const [showButton, setShowButton] = useState(false);

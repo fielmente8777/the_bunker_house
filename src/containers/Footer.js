@@ -1,21 +1,11 @@
-import React, { useState } from "react";
-import { IoCall } from "react-icons/io5";
+import { useState } from "react";
+import { FaTripadvisor } from "react-icons/fa";
 import { FaInstagram, FaLocationDot } from "react-icons/fa6";
+import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
-import { FaTripadvisor, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { bookingURL } from "../csconfig";
-import {
-  BookOnline,
-  Email,
-  WhatsappOutlined,
-  Google,
-} from "@mui/icons-material";
-import { IconButton } from "@mui/material";
-import { whatsappText } from "../whatsappText";
-import TripAdvisor_img from "../assets/TripAdvisor_img.jpg";
 
-import { Section, Container } from "../components";
+import { Container, Section } from "../components";
 
 function Footer() {
   const [email, setEmail] = useState("");

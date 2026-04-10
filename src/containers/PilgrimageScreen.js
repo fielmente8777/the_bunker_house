@@ -1,21 +1,20 @@
-import React from "react";
 import InformationCard from "../components/InformationCard";
 
 import Pilgrimage_img from "../assets/Pilgrimage_img.jpg";
 
 import Panchkedars_img from "../assets/Panchkedars_img2.jpg";
 
-import Kedarnath_img1 from "../assets/Pilgrimage_img.jpg";
 import Badrinath_img from "../assets/Badrinath_img.jpg";
 import Gangotri_img from "../assets/Gangotri_img.jpg";
+import Kedarnath_img1 from "../assets/Pilgrimage_img.jpg";
 import Yamunotri_img from "../assets/Yamunotri_img.jpg";
 
-import Tungnath_img from "../assets/Tungnath_img.jpg";
-import Kedarnath_img from "../assets/Kedarnath_img.jpg";
-import Rudranath_img from "../assets/Rudranath_img.jpg";
-import Kalpeshwar_img from "../assets/Kalpeshwar_img.jpg";
-import Madhyamaheshwar_img from "../assets/Madhyamaheshwar_img.jpg";
 import { Helmet } from "react-helmet";
+import Kalpeshwar_img from "../assets/Kalpeshwar_img.jpg";
+import Kedarnath_img from "../assets/Kedarnath_img.jpg";
+import Madhyamaheshwar_img from "../assets/Madhyamaheshwar_img.jpg";
+import Rudranath_img from "../assets/Rudranath_img.jpg";
+import Tungnath_img from "../assets/Tungnath_img.jpg";
 
 const PilgrimageScreen = () => {
   const charDhamData = [

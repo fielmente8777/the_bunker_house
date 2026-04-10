@@ -1,4 +1,3 @@
-import React from "react";
 import home_img from "../assets/home_img.png";
 
 const Error404 = () => {

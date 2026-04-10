@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
 import { useLocation } from "react-router";
+import { Link } from "react-router-dom";
 // import logo from "../assets/logo.svg";
-import Popup from "reactjs-popup";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import Popup from "reactjs-popup";
 import { bookingURL } from "../csconfig";
 
 const Navbar = () => {

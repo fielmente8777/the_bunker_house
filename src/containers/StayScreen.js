@@ -1,4 +1,3 @@
-import React from "react";
 import StayRoom_LandingImg from "../assets/StayRoom_LandingImg.png";
 
 import PrivateDeluxeRoom_img1 from "../assets/PrivateDeluxeRoom_img1.jpeg";
@@ -21,8 +20,8 @@ import BunkRoom_img3 from "../assets/BunkRoom_img3.jpg";
 import BunkRoom_img4 from "../assets/BunkRoom_img4.jpg";
 import BunkRoom_img5 from "../assets/BunkRoom_img5.jpg";
 
-import InformationCard from "../components/InformationCard";
 import { Helmet } from "react-helmet";
+import InformationCard from "../components/InformationCard";
 
 const StayScreen = () => {
   const data = [

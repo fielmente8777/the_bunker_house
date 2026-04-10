@@ -1,11 +1,10 @@
-import React from "react";
 import InformationCard from "../components/InformationCard";
 
-import Trekking_img from "../assets/Trekking_img.jpg";
-import Chandrashila_img from "../assets/Chandrashila_img.jpg";
-import Tungnath_img from "../assets/Tungnath_img.jpg";
-import Deoriatal_img from "../assets/Deoriatal_img.jpg";
 import { Helmet } from "react-helmet";
+import Chandrashila_img from "../assets/Chandrashila_img.jpg";
+import Deoriatal_img from "../assets/Deoriatal_img.jpg";
+import Trekking_img from "../assets/Trekking_img.jpg";
+import Tungnath_img from "../assets/Tungnath_img.jpg";
 
 const TrekkingScreen = () => {
   const data = [

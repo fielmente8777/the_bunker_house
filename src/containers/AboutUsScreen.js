@@ -1,9 +1,8 @@
-import React from "react";
-import AboutUs_LandingImg from "../assets/AboutUs_LandingImg.jpg";
-import ValuesCard from "../components/ValuesCard";
-import Family_img from "../assets/Family_img.jpeg";
 import { Helmet } from "react-helmet";
+import AboutUs_LandingImg from "../assets/AboutUs_LandingImg.jpg";
+import Family_img from "../assets/Family_img.jpeg";
 import Container from "../components/Container";
+import ValuesCard from "../components/ValuesCard";
 const AboutUsScreen = () => {
   const values = [
     {

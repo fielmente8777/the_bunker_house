@@ -1,7 +1,6 @@
-import React from "react";
+import { Helmet } from "react-helmet";
 import HostelRoom_img from "../assets/HostelRoom_img.png";
 import { bookingURL } from "../csconfig";
-import { Helmet } from "react-helmet";
 
 const HostelRoom = () => {
   return (

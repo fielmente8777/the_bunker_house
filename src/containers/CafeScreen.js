@@ -1,4 +1,3 @@
-import React from "react";
 import Cafe_LandingImg from "../assets/Cafe_LandingImg.png";
 import Cafe_img1 from "../assets/Cafe_img1.png";
 import Cafe_img2 from "../assets/Cafe_img2.png";
@@ -9,7 +8,9 @@ import Cafe_img6 from "../assets/Cafe_img6.png";
 import Cafe_img7 from "../assets/Cafe_img7.png";
 import Cafe_img8 from "../assets/Cafe_img8.png";
 
+import { Helmet } from "react-helmet";
 import FoodCourt_img1 from "../assets/FoodCourt_img1.jpg";
+import FoodCourt_img10 from "../assets/FoodCourt_img10.jpg";
 import FoodCourt_img2 from "../assets/FoodCourt_img2.jpg";
 import FoodCourt_img3 from "../assets/FoodCourt_img3.jpg";
 import FoodCourt_img4 from "../assets/FoodCourt_img4.jpg";
@@ -18,9 +19,7 @@ import FoodCourt_img6 from "../assets/FoodCourt_img6.jpg";
 import FoodCourt_img7 from "../assets/FoodCourt_img7.jpg";
 import FoodCourt_img8 from "../assets/FoodCourt_img8.jpg";
 import FoodCourt_img9 from "../assets/FoodCourt_img9.jpg";
-import FoodCourt_img10 from "../assets/FoodCourt_img10.jpg";
 import InformationCard from "../components/InformationCard";
-import { Helmet } from "react-helmet";
 
 const CafeSection = () => {
   const data = [
