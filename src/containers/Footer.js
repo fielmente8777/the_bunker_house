@@ -18,16 +18,16 @@ function Footer() {
     const value = e.target.value;
     setEmail(value);
     setErrorMessage(
-      !emailRegex.test(value) ? "Please enter a valid email address" : ""
+      !emailRegex.test(value) ? "Please enter a valid email address" : "",
     );
   };
 
   const handleNewsletter = async () => {
     const data = {
-      // Domain: "abhijeet",
       Domain: "thebunkerhouse",
       email: email,
     };
+
     try {
       const response = await fetch(host, {
         method: "POST",
@@ -36,6 +36,9 @@ function Footer() {
         },
         body: JSON.stringify(data),
       });
+
+      const result = await response.json();
+      console.log(result);
     } catch (error) {
       console.log(error);
     }
@@ -86,7 +89,7 @@ function Footer() {
                       onClick={() =>
                         window.open(
                           item.link,
-                          item.type === "location" && "_blank"
+                          item.type === "location" && "_blank",
                         )
                       }
                       className="flex gap-3 text-base cursor-pointer"
