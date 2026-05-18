@@ -18,7 +18,7 @@ function Footer() {
     const value = e.target.value;
     setEmail(value);
     setErrorMessage(
-      !emailRegex.test(value) ? "Please enter a valid email address" : "",
+      !emailRegex.test(value) ? "Please enter a valid email address" : ""
     );
   };
 
@@ -52,17 +52,24 @@ function Footer() {
         <Container>
           <div className="grid lg:grid-cols-4 gap-6">
             {/* logo */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 max-md:items-center max-md:text-center">
               <div className="flex justify-center">
                 <img src="/logo.png" alt="logo" className="w-40" />
               </div>
-              <h2 className="text-justify tracking-wider font-bold text-white uppercase lg:text-2xl text-lg">
-                The Bunker House
+              <h2 className=" tracking-wider font-bold text-white uppercase lg:text-2xl text-lg">
+                The Bunker House Cafe & Stay
               </h2>
+              <p className="text-md text-white/90">
+                A unit of Harji Hospitalities
+              </p>
+
+              <p className="text-md text-white/90">
+                GST No. :- 05BGOPT4869B1Z0
+              </p>
             </div>
 
             {/* Quick links */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 max-md:items-center max-md:text-center">
               <h2 className="text-2xl font-medium text-white uppercase">
                 Quick Links
               </h2>
@@ -78,7 +85,7 @@ function Footer() {
             </div>
 
             {/* get in touch */}
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 max-md:items-center max-md:text-center">
               <h2 className="text-2xl font-medium text-white uppercase">
                 Get In Touch
               </h2>
@@ -89,10 +96,10 @@ function Footer() {
                       onClick={() =>
                         window.open(
                           item.link,
-                          item.type === "location" && "_blank",
+                          item.type === "location" && "_blank"
                         )
                       }
-                      className="flex gap-3 text-base cursor-pointer"
+                      className="flex gap-3 text-base cursor-pointer  max-md:justify-center max-md:text-center"
                     >
                       <span className="text-2xl">{item.icon}</span>
                       <span>{item.title}</span>
@@ -103,7 +110,7 @@ function Footer() {
             </div>
 
             {/* newsletter */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 ">
               <h2 className="text-2xl font-medium text-white capitalize">
                 Subscribe To Our Newsletter
               </h2>
