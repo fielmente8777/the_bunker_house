@@ -56,14 +56,14 @@ function Footer() {
               <div className="flex justify-center">
                 <img src="/logo.png" alt="logo" className="w-40" />
               </div>
-              <h2 className=" tracking-wider font-bold text-white uppercase lg:text-2xl text-lg">
+              <h2 className=" tracking-wider font-bold text-center text-white uppercase lg:text-xl text-lg">
                 The Bunker House Cafe & Stay
               </h2>
-              <p className="text-md text-white/90">
+              <p className="text-md text-white/90 text-center">
                 A unit of Harji Hospitalities
               </p>
 
-              <p className="text-md text-white/90">
+              <p className="text-md text-white/90 text-center">
                 GST No. :- 05BGOPT4869B1Z0
               </p>
             </div>
