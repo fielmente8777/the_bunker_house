@@ -18,7 +18,7 @@ function Footer() {
     const value = e.target.value;
     setEmail(value);
     setErrorMessage(
-      !emailRegex.test(value) ? "Please enter a valid email address" : ""
+      !emailRegex.test(value) ? "Please enter a valid email address" : "",
     );
   };
 
@@ -62,6 +62,9 @@ function Footer() {
               <p className="text-md text-white/90 text-center">
                 A unit of Harji Hospitalities
               </p>
+              <p className="text-md text-white/90 text-center">
+                Proprietor: Sparsh Taneja
+              </p>
 
               <p className="text-md text-white/90 text-center">
                 GST No. :- 05BGOPT4869B1Z0
@@ -96,7 +99,7 @@ function Footer() {
                       onClick={() =>
                         window.open(
                           item.link,
-                          item.type === "location" && "_blank"
+                          item.type === "location" && "_blank",
                         )
                       }
                       className="flex gap-3 text-base cursor-pointer  max-md:justify-center max-md:text-center"
